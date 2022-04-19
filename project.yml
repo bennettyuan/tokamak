@@ -1,0 +1,16 @@
+# See also: https://github.com/yonaskolb/XcodeGen/blob/master/Docs/ProjectSpec.md
+
+name: Tokamak
+
+options:
+  bundleIdPrefix: com.bennettyuan
+
+targets:
+  tokamak:
+    type: framework
+    platform: iOS
+    deploymentTarget: 9.0
+    sources: Tokamak
+    settings:
+      base:
+        DEVELOPMENT_TEAM: WRZCVN58M5
