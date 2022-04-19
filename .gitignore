@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Xcode
+xcuserdata/
+
+# XcodeGen
+*.xcodeproj
+Tokamak/Info.plist
+SampleCode/Info.plist
+
+# CocoaPods
+*.xcworkspace
+Pods/
